@@ -1,0 +1,3 @@
+= Xapian-Ruby
+
+Xapian-Ruby installs the current xapian libs and ruby bindings
