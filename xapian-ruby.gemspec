@@ -1,10 +1,14 @@
 # -*- encoding: utf-8 -*-
+
+require 'yaml'
+YAML::ENGINE.yamler='psych' if defined?(YAML::ENGINE)
+
 lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
 
 Gem::Specification.new do |s|
   s.name         = %q{xapian-ruby}
-  s.version      = "1.2.6"
+  s.version      = "1.2.7"
   s.authors      = ["Gernot Kogler"]
   s.summary      = %q{xapian libraries and ruby bindings}
   s.email        = %q{gernot.kogler (at) garaio (dot) com}
