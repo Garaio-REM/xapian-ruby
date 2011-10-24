@@ -21,7 +21,7 @@ task :default do
 	end
 
 	prefix = Dir.pwd
-	ENV['LDFLAGS'] = "-R#{prefix}/lib"
+	ENV['LDFLAGS'] = "-L#{prefix}/lib"
 
 	system! "mkdir -p lib"
 
