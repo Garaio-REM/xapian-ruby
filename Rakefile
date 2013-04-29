@@ -2,6 +2,7 @@
 # Install the xapian binaries into the lib folder of the gem
 
 require 'rbconfig'
+
 c = Config::CONFIG
 
 def system!(cmd)
@@ -9,7 +10,7 @@ def system!(cmd)
 	system(cmd) or raise
 end
 
-ver = '1.2.12'
+ver = '1.2.15'
 source_dir = 'xapian_source'
 core = "xapian-core-#{ver}"
 bindings = "xapian-bindings-#{ver}"

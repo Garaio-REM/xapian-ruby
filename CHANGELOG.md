@@ -1,3 +1,7 @@
+##1.2.15 (April 29th, 2012)
+
+update to xapian 1.2.15
+
 ##1.2.12 (July 11th, 2012)
 
 update to xapian 1.2.12
