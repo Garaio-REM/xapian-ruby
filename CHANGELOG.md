@@ -1,3 +1,7 @@
+##1.2.15.1 (April 30th, 2012)
+
+source formats fixed (gzipped)
+
 ##1.2.15 (April 29th, 2012)
 
 update to xapian 1.2.15
