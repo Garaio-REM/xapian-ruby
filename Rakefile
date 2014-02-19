@@ -10,7 +10,7 @@ def system!(cmd)
 	system(cmd) or raise
 end
 
-ver = '1.2.15'
+ver = '1.2.17'
 source_dir = 'xapian_source'
 core = "xapian-core-#{ver}"
 bindings = "xapian-bindings-#{ver}"

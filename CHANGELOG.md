@@ -1,3 +1,7 @@
+##1.2.17 (February 19th, 2014)
+
+update to xapian 1.2.17
+
 ##1.2.15.1 (April 30th, 2012)
 
 source formats fixed (gzipped)
