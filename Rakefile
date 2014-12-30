@@ -9,7 +9,7 @@ def system!(cmd)
 	system(cmd) or raise
 end
 
-ver = '1.2.17'
+ver = '1.2.19'
 source_dir = 'xapian_source'
 core = "xapian-core-#{ver}"
 bindings = "xapian-bindings-#{ver}"
@@ -17,7 +17,7 @@ xapian_config = "#{Dir.pwd}/#{core}/xapian-config"
 
 task :default do
 	[core,bindings].each do |x|
-		system! "tar -xzvf #{source_dir}/#{x}.tar.gz"
+		system! "tar -xzvf #{source_dir}/#{x}.tar.xz"
 	end
 
 	prefix = Dir.pwd
@@ -48,5 +48,4 @@ task :default do
   system! "rm -R #{bindings}"
   system! "rm -R #{core}"
   system! "rm -R #{source_dir}"
-
 end

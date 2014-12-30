@@ -1,3 +1,8 @@
+##1.2.19 (December 30th, 2014)
+
+- update to xapian 1.2.19
+- fix for ruby 2.2
+
 ##1.2.17 (February 19th, 2014)
 
 update to xapian 1.2.17
