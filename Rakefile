@@ -1,9 +1,8 @@
 # encoding: utf-8
 # Install the xapian binaries into the lib folder of the gem
-
 require 'rbconfig'
 
-c = Config::CONFIG
+c = RbConfig::CONFIG
 
 def system!(cmd)
 	puts cmd
