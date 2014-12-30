@@ -1,3 +1,7 @@
+##1.2.19.1 (December 30th, 2014)
+
+- fixed tar flags
+
 ##1.2.19 (December 30th, 2014)
 
 - update to xapian 1.2.19
