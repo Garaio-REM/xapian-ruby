@@ -1,3 +1,6 @@
+##1.2.20 (May 5th, 2015)
+
+- fixed tar flags
 ##1.2.19.1 (December 30th, 2014)
 
 - fixed tar flags
