@@ -1,3 +1,7 @@
+##1.2.21 (May 5th, 2015)
+
+- update to xapian 1.2.21
+
 ##1.2.20 (May 5th, 2015)
 
 - fixed tar flags
