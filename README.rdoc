@@ -1,3 +1,4 @@
 = Xapian-Ruby
 
-Xapian-Ruby installs the current xapian libs and ruby bindings
+Xapian-Ruby installs the current Xapian libraries and Ruby bindings.
+The Xapian libraries will reside within the lib folder of this gem.
