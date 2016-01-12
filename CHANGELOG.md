@@ -1,3 +1,7 @@
+##1.2.22 (January 8th, 2016)
+
+- update to xapian 1.2.22
+
 ##1.2.21 (July 14th, 2015)
 
 - update to xapian 1.2.21
