@@ -1,3 +1,7 @@
+##1.4.16 (June 21st, 2020)
+
+- update to xapian 1.4.16
+
 ##1.4.9 (Nove,ber 7th, 2018)
 
 - update to xapian 1.2.22
