@@ -8,7 +8,7 @@ $:.unshift lib unless $:.include?(lib)
 
 Gem::Specification.new do |s|
   s.name         = %q{xapian-ruby}
-  s.version      = "1.4.17"
+  s.version      = "1.4.18"
   s.authors      = ["Gernot Kogler"]
   s.summary      = %q{xapian libraries and ruby bindings}
   s.email        = %q{gernot.kogler (at) garaio (dot) com}

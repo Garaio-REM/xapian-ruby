@@ -1,3 +1,7 @@
+## 1.4.18 (June 29th, 2021)
+
+- version bump to Xapian 1.4.18
+
 ## 1.4.17 (June 29th, 2021)
 
 - add compatibility for macOS Big Sur
