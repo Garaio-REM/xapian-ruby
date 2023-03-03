@@ -1,3 +1,7 @@
+## 1.4.22 (March 3rd, 2022)
+
+- version bump to Xapian 1.4.22
+
 ## 1.4.18 (June 29th, 2021)
 
 - version bump to Xapian 1.4.18
