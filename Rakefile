@@ -9,7 +9,7 @@ def system!(cmd)
 	system(cmd) or raise
 end
 
-ver = '1.4.22'
+ver = '1.4.27'
 source_dir = 'xapian_source'
 core = "xapian-core-#{ver}"
 bindings = "xapian-bindings-#{ver}"
@@ -47,7 +47,6 @@ task :default do
   system! "rm lib/*.la"
   system! "rm lib/*.lai"
 
-  system! "rm -R #{bindings}"
-  system! "rm -R #{core}"
-  system! "rm -R #{source_dir}"
+  system! "rm -Rf #{bindings}"
+  system! "rm -Rf #{core}"
 end
